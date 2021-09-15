@@ -1,0 +1,9 @@
+name: UsefulMOTD
+version: '${project.version}'
+main: me.pastelrobots.usefulmotd.UsefulMOTD
+api-version: 1.17
+prefix: UsefulMOTD
+authors: [ PastelRobots ]
+softdepend: [Vault]
+loadbefore: [Vault]
+description: A simple light-weight MOTD plugin!

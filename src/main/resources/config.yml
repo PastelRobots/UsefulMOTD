@@ -1,0 +1,19 @@
+# Welcome to the config.yml!
+
+modules:
+  motd:
+    normalmotds:
+      regularmotd: # Player has played before
+        centered: true
+        1st-line: "&aThanks &bfor &cusing &dUseful&eMOTD!" # & for chat colors, %player% viewer's ign, %vault_bal% vault economy balance (Requires Vault plugin)
+        2nd-line: "&lWelcome %player%!"
+      newplayermotd: # Player has never played before
+        centered: true
+        1st-line: "&aThanks &bfor &cusing &dUseful&eMOTD!" # & for chat colors
+        2nd-line: "&lI see you're new here, welcome!"
+
+hooks:
+  vault: true # Requires the Vault plugin!
+
+console:
+  enabled-msg: true
